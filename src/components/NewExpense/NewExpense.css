@@ -1,26 +1,23 @@
 .new-expense {
-    width: 50rem;
-    max-width: 95%;
-    margin: 2rem auto;
-    padding: 1rem;
-    text-align: center;
-    border-radius: 12px;
-    background-color: #515E63;
-    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  width: 50rem;
+  max-width: 95%;
+  margin: 2rem auto;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(200px);
+  filter: blur();
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
 }
 
-
 .new-expense button {
-    font: inherit;
-    cursor: pointer;
-    padding: 1rem 2rem;
-    border: 1px solid #557174;
-    background-color: #557174;
-    color: white;
-    border-radius: 12px;
-    margin-right: 1rem;
-    
-  }
-
-
-  
+  font: inherit;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border: 1px solid #557174;
+  background-color: #557174;
+  color: white;
+  border-radius: 12px;
+  margin-right: 1rem;
+}
